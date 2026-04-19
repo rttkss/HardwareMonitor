@@ -1,0 +1,11 @@
+﻿<Application x:Class="HardwareMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HardwareMonitor"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:BytesToMBConverter x:Key="ToMB"/>
+        <local:BytesToGBConverter x:Key="ToGB"/>
+        <local:PercentColorConverter x:Key="PctColor"/>
+    </Application.Resources>
+</Application>
